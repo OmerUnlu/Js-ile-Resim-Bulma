@@ -1,0 +1,43 @@
+.container{  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    }
+    .search input{
+        width: 65%;
+        height: 30px;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+    .controls button{
+        width: 17%;
+        height: 35px;
+        font-size: large;
+        margin-left: 5px;
+        margin-bottom: 10px;
+        cursor: pointer;
+    }
+    .controls button:hover{
+        font-size: large;
+       font-weight: bold;
+    }
+    .controls .ara{
+        background-color: rgb(58, 52, 52);
+        color: #f3f3f3;
+        border: none;
+        border-radius: 7px;
+    }
+    .controls .temizle{
+        background-color: #a93838;
+        color: #f3f3f3;
+        border: none;
+        border-radius: 7px;
+    }
+    .image-list-wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 25px;
+    }
